@@ -1,0 +1,198 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family: sans-serif;
+}
+html,body {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	width: 1500px;
+	margin: auto;
+	height: 910px;
+}
+.htop {
+	height: 810px;
+	width: 100%;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	background-image: url("img/bg2.png");
+	-webkit-background-size: 100%;
+	     -o-background-size: 100%;
+	        background-size: 100%;
+	text-align: center;
+	padding: 190px 100px 120px 100px;
+	color: white;
+}
+.title {
+	text-transform: uppercase;
+	font-size: 48px;
+	line-height: 72px;
+	font-family: Arial;
+	font-weight: 600;
+}
+.sectiontitle {
+  font-size: 48px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+}
+.desc {
+	font-size: 24px;
+	line-height: 36px;
+	width: 860px;
+	margin: 20px auto;
+}
+.stats {
+	width: 870px;
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin: auto;
+	margin-top: 45px;
+}
+.stat {
+	width: 250px;
+	height: 175px;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 45px 0px;
+}
+.stat1 {
+	background: url("img/bord1.png");
+	-webkit-background-size: 100% 100%;
+	     -o-background-size: 100% 100%;
+	        background-size: 100% 100%;
+}
+.stat2 {
+	background: url("img/bord2.png");
+	-webkit-background-size: 100% 100%;
+	     -o-background-size: 100% 100%;
+	        background-size: 100% 100%;
+}
+.stat3 {
+	background: url("img/bord3.png");
+	-webkit-background-size: 100% 100%;
+	     -o-background-size: 100% 100%;
+	        background-size: 100% 100%;
+}
+.samount {
+	font-size: 48px;
+	font-family: Sans-serif;
+	font-weight: 700;
+}
+.stitle {
+	font-size: 18px;
+}
+.menu {
+	border-bottom: 2px solid #adadad;
+	height: 100px;
+	width: 100%;
+	text-align: right;
+	padding-right: 110px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.links a {
+	font-size: 30px;
+	font-weight: 550;
+	margin: 0 20px;
+}
+.links {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-align-content: center;
+	        align-content: center;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+}
+.mainlink {
+	color: #f6ae48;
+}
+.studio {
+	width: 1500px;
+	height: 1120px;
+	margin: auto;
+	padding: 130px 130px 250px 130px;
+	background-image: url("img/WE.png");
+	background-repeat: no-repeat;
+	background-position: 450px 130px;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	
+}
+.studio>div {
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+}
+.stdesc {
+	font-size: 20px;
+	text-align: justify;
+	width: 770px;
+}
+.subtitle {
+	margin-top: 10px;
+	font-size: 21px;
+	font-weight: bold;
+}
+.subdesc {
+	font-size: 15px;
+	line-height: 22px;
+	margin-top: 20px;
+}
+.kvadrat {
+	width: 395px;
+	height: 344px;
+	padding: 25px;
+}
+.kvorange {
+	background-color: #f6ae48;
+}
+.kvadrat>img {
+	height: 50px;
+}
+.wbord {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-size: 18px;
+	padding: 9px 16px;
+	line-height: 48px;
+	border: 1px solid #FFF;
+	color: #FFF;
+}
+.kvbtn {
+	margin-top: 15px;
+	background-image: url("img/arrow.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	cursor: pointer;
+}
