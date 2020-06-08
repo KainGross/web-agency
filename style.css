@@ -342,3 +342,60 @@ a {
   line-height: 2;
   width: 570px;
 }
+.ourproj {
+	background-image: url("img/opbg.png");
+	height: 120px;
+	width: 1500px;
+	margin: auto;
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.ourproj>span {
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+}
+.lastprojects {
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: space-between;
+			justify-content: space-between;
+	margin: auto;
+	width: 1500px;
+}
+.lastprojects>div {
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.more {
+	width: 1500px;
+	margin: auto;
+	background-image: url("img/renc.png");
+	height: 120px;
+	display: flex;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.more>button {
+	-webkit-border-radius: 15px;
+	        border-radius: 15px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 24px;
+	border: none;
+	background-color: rgba(255,255,255,.3);
+	height: 66px;
+	width: 240px;
+	cursor: pointer;
+}
