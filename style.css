@@ -496,3 +496,116 @@ a {
 	font-size: 18px;
 	line-height: 30px;
 }
+.zabota {
+	height: 760px;
+	width: 1500px;
+	margin: auto;
+	background-image: url("img/bc.png");
+	background-repeat: no-repeat;
+	background-position: 165px 165px;
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 150px 150px 240px 200px;
+}
+.feedback {
+	width: 1500px;
+	height: 566px;
+	padding: 130px 150px 115px 180px;
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background-image: url("img/feedback.png");
+	margin: auto;
+}
+.fdesc {
+	width: 500px;	
+}
+.ftitle {
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 60px;
+}
+.ftext {
+	font-size: 18px;
+	line-height: 27px;
+	color: white;
+}
+.fbi {
+	font-size: 18px;
+	line-height: 30px;
+}
+.fbi * {
+	margin: 0;
+	padding: 0px 20px;
+	border: 5px solid white;
+	background: none;
+	color: white;
+	font-size: 18px;
+}
+.fbform {
+	width: 600px;
+	height: 325px;
+	color: white;
+}
+.fbffirst,.fbfsecond {
+	width: 50%;
+	height: 50px;
+}
+.fbfsecond {
+	margin-left: -5px;
+}
+.fbfemail {
+	width: 100%;
+	height: 50px;
+}
+.fbfmsg {
+	width: 100%;
+	height: 170px;
+	padding-top: 15px;
+	resize: none;
+}
+.fbfb {
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.fsub {
+	text-transform: uppercase;
+	border-radius: 15px;
+  	background-color: rgb(246, 174, 72);
+  	width: 143px;
+  	height: 44px;
+  	border: none;
+  	color: #FFF;
+  	font-size: 18px;
+  	font-weight: bold;
+  	cursor: pointer;
+}
+.forminfo {
+	margin-left: 25px;
+}
+.footer {
+	width: 1500px;
+	height: 110px;
+	background-color: #f6ae48;
+	margin: auto;
+}
+::-webkit-input-placeholder {color:#fff;}
+::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#fff;}
